@@ -8,7 +8,7 @@ O histórico dos resultados é mostrado abaixo:
 
 
 ## [Versão 1: Primeiro modelo](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%201.ipynb)
-- Nesse versão, realizei apenas o tratamento minimo para os valores nulos para verificar qual seria o resultado sem fazer nenhum tratamento nem engenharia dos dados, ter uma baseline.
+- Nesta primeira etapa, realizei apenas o tratamento minimo para os valores nulos para verificar qual seria o resultado sem fazer nenhum tratamento nem engenharia dos dados, ter uma baseline.
 - Para simplificar, **substitui todos os valores vazios por -1** e **trabalhei somente com valores numericos**
 - Criei o modelo utilizando **3 algoritmos**: **Regressão Linear**, **Árvore de Regressão** e **KNeighborsRegressor** e **avaliamos os resultados** utilizando o **Erro médio absoluto** e o **Erro quadrático médio**, dando preferência ao segundo pois era o critério usando na competição
 - Obtive o **score público retornado pelo Kaggle de 0,25476**
