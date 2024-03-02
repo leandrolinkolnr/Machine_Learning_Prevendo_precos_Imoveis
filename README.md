@@ -11,13 +11,20 @@ O histórico dos resultados é mostrado abaixo:
 - Nesta primeira etapa, realizei apenas o tratamento minimo para os valores nulos para verificar qual seria o resultado sem fazer nenhum tratamento nem engenharia dos dados, ter uma baseline.
 - Para simplificar, **substitui todos os valores vazios por -1** e **trabalhei somente com valores numericos**
 - Criei o modelo utilizando **3 algoritmos**: **Regressão Linear**, **Árvore de Regressão** e **KNeighborsRegressor** e **avaliamos os resultados** utilizando o **Erro médio absoluto** e o **Erro quadrático médio**.
-- Obtive o **score público retornado pelo Kaggle de 0,25476**
+- Obtive o **score público retornado pelo Kaggle de 0,2548**
 
 
-## [Versão 2: Analise e tratamento dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versão%202.ipynb)
+## [Versão 2: Analise e limpeza dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versão%202.ipynb)
 - Iniciei esta versão realizando uma analise dos dados, buscando identificar a importancia de algumas variaveis para o modelo e, após isso, realizei **limpeza e tratamento dos dados**, analisando **valores vazios e informações faltantes** para escolher a melhor estratégia de tratamento:
 - Os valores vazios foram tratados de forma diferenciada: quando indicavam a ausência de atributos na casa, como a falta de piscina, foram substituídos por -1, considerando o vazio como informação; em casos de verdadeira ausência de informação, foram substituídos pela média da coluna, moda ou outras abordagens apropriadas.
-- Além disso, utilizei o OneHotEncoder para tratar algumas colunas textuais que eram muito importantes para o modelo e não podiam ser desconsideradas.
-- Então, utilizei os mesmos modelos da etapa 1 e obtive o **score público retornado pelo Kaggle de 0.21104**
+- Então, utilizei os mesmos modelos da etapa 1 e obtive o **score público retornado pelo Kaggle de 0.2110**
+
+
+## [Versão 3: Tratamento dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%203.ipynb)
+- Inicialmente, para o tratamento  dos dados, analisei a correlação entre as datas de construção de algumas partes da casa e notei que as colunas tinham grande similaridade, podendo então, descartá-las.
+- Em seguida, utilizei OneHotEncoder e OrdinalEncoder para tratar as colunas textuais e aumentar a quantidade de informações fornecidas ao modelo, com o objetivo de melhorar seu desempenho e sua precisão. No entanto, houve uma queda no score, e notei que o modelo poderia estar memorizando ou se ajustando excessivamente aos dados de treinamento, o que chamamos de Overfitting.
+- Obtive o **score público retornado pelo Kaggle de 1.045**
+
+
 
 
