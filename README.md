@@ -14,10 +14,10 @@ O histórico dos resultados é mostrado abaixo:
 - Obtive o **score público retornado pelo Kaggle de 0,2548**
 
 
-## [Versão 2: Analise e limpeza dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versão%202.ipynb)
+## [Versão 2: Analise e limpeza dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%202.ipynb)
 - Iniciei esta versão realizando uma analise dos dados, buscando identificar a importancia de algumas variaveis para o modelo e, após isso, realizei **limpeza e tratamento dos dados**, analisando **valores vazios e informações faltantes** para escolher a melhor estratégia de tratamento:
 - Os valores vazios foram tratados de forma diferenciada: quando indicavam a ausência de atributos na casa, como a falta de piscina, foram substituídos por -1, considerando o vazio como informação; em casos de verdadeira ausência de informação, foram substituídos pela média da coluna, moda ou outras abordagens apropriadas.
-- Então, utilizei os mesmos modelos da etapa 1 e obtive o **score público retornado pelo Kaggle de 0.2110**
+- Então, obtive o **score público retornado pelo Kaggle de 0.2110**
 
 
 ## [Versão 3: Tratamento dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%203.ipynb)
