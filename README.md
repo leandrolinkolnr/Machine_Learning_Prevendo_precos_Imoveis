@@ -33,7 +33,7 @@ O histórico dos resultados é mostrado abaixo:
 
 
 
-## [Etapa 5: Selecionando os melhores parâmetros](LINK)
+## [Etapa 5: Selecionando os melhores parâmetros](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versão%205.ipynb)
 - Na versão final, utilizei o **GridSearchCV** para identificar os **melhores parâmetros** dos modelos que apresentaram melhor desempenho, visando aperfeiçoar o modelo.
 - Como o RandomForest teve um menor erro quadrático e o XGBoost um menor erro absoluto, os resultando foram:
    - Para o **RandomForest: 0,1537**
