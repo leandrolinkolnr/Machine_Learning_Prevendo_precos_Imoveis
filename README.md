@@ -4,7 +4,7 @@ Repositório para a **[competição do Kaggle:](https://www.kaggle.com/competiti
 <img src='https://github.com/lucaslealx/HousePrices/blob/main/img/img1.png' />
 
 O histórico dos resultados é mostrado abaixo:
-<img src='https://drive.google.com/file/d/1iEGnERC-LFkT7Guu4oD8hkaXxqDMmF3s/view?usp=sharing' />
+<img src='https://www.flickr.com/photos/200210806@N04/53566873502/in/dateposted-public/' />
 
 
 ## [Versão 1: Primeiro modelo](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%201.ipynb)
