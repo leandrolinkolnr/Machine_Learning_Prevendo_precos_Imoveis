@@ -25,6 +25,11 @@ O histórico dos resultados é mostrado abaixo:
 - Em seguida, utilizei OneHotEncoder e OrdinalEncoder para tratar as colunas textuais e aumentar a quantidade de informações fornecidas ao modelo, com o objetivo de melhorar seu desempenho e sua precisão. No entanto, houve uma queda no score, e notei que o modelo poderia estar memorizando ou se ajustando excessivamente aos dados de treinamento, o que chamamos de Overfitting.
 - Obtive o **score público retornado pelo Kaggle de 1.045**
 
+## [Versão 4: Adicionando novos algoritmos](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning)
+- Primeiramente, reverti alguns tratamentos dos dados realizados na versão anterior, que causaram Overfitting no modelo.
+- Em seguida, **retirei os algoritmos Árvore de Regressão e KNeighborsRegressor**, que haviam obtido um desempenho inferior, e adicionei dois novos algoritmos: **XGBoost e RandomForestRegressor**.
+- Obtive o **score público retornado pelo Kaggle de 0.1697**
+
 
 
 
