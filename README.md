@@ -1,7 +1,7 @@
 # HousePrices
 Repositório para a **[competição do Kaggle:](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) Previsão de preço das casas** na cidade de Ames, Iowa (Estados Unidos)
 
-<img src='https://github.com/lucaslealx/HousePrices/blob/main/img/img1.png' />
+<img src='[https://github.com/lucaslealx/HousePrices/blob/main/img/img1.png](https://drive.google.com/file/d/1iEGnERC-LFkT7Guu4oD8hkaXxqDMmF3s/view?usp=sharing)' />
 
 O histórico dos resultados é mostrado abaixo:
 <img src='https://raw.githubusercontent.com/lucaslealx/HousePrices/9301f4bc8360541493d28d524ec00a1d5b37f537/img/img2.png' />
@@ -17,13 +17,13 @@ O histórico dos resultados é mostrado abaixo:
 ## [Versão 2: Analise e limpeza dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%202.ipynb)
 - Iniciei esta versão realizando uma analise dos dados, buscando identificar a importancia de algumas variaveis para o modelo e, após isso, realizei **limpeza e tratamento dos dados**, analisando **valores vazios e informações faltantes** para escolher a melhor estratégia de tratamento:
 - Os valores vazios foram tratados de forma diferenciada: quando indicavam a ausência de atributos na casa, como a falta de piscina, foram substituídos por -1, considerando o vazio como informação; em casos de verdadeira ausência de informação, foram substituídos pela média da coluna, moda ou outras abordagens apropriadas.
-- Então, obtive o **score público retornado pelo Kaggle de 0.2110**
+- Então, obtive o **score público retornado pelo Kaggle de 0.2111**
 
 
 ## [Versão 3: Tratamento dos dados](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%203.ipynb)
 - Inicialmente, para o tratamento  dos dados, analisei a correlação entre as datas de construção de algumas partes da casa e notei que as colunas tinham grande similaridade, podendo então, descartá-las.
 - Em seguida, utilizei OneHotEncoder e OrdinalEncoder para tratar as colunas textuais e aumentar a quantidade de informações fornecidas ao modelo, com o objetivo de melhorar seu desempenho e sua precisão. No entanto, houve uma queda no score, e notei que o modelo poderia estar memorizando ou se ajustando excessivamente aos dados de treinamento, o que chamamos de Overfitting.
-- Obtive o **score público retornado pelo Kaggle de 1.045**
+- Obtive o **score público retornado pelo Kaggle de 0.4554**
 
 ## [Versão 4: Adicionando novos algoritmos](https://github.com/leandrolinkolnr/Projeto-completo---Machine-Learning/blob/main/Versao%204.ipynb)
 - Primeiramente, reverti alguns tratamentos dos dados realizados na versão anterior, que causaram Overfitting no modelo.
