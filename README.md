@@ -1,7 +1,7 @@
 # HousePrices
 Repositório para a **[competição do Kaggle:](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) Previsão de preço das casas** na cidade de Ames, Iowa (Estados Unidos)
 
-<img src='[https://github.com/lucaslealx/HousePrices/blob/main/img/img1.png](https://drive.google.com/file/d/1iEGnERC-LFkT7Guu4oD8hkaXxqDMmF3s/view?usp=sharing)' />
+<img src='https://drive.google.com/file/d/1iEGnERC-LFkT7Guu4oD8hkaXxqDMmF3s/view?usp=sharing' />
 
 O histórico dos resultados é mostrado abaixo:
 <img src='https://raw.githubusercontent.com/lucaslealx/HousePrices/9301f4bc8360541493d28d524ec00a1d5b37f537/img/img2.png' />
